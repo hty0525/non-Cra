@@ -9,7 +9,9 @@ module.exports = {
     filename: "index.js",
     clean: true,
   },
-
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
   devServer: {
     port: 3000,
     liveReload: true,
